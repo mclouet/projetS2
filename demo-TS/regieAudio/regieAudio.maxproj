@@ -1,19 +1,50 @@
 {
 	"name" : "regieAudio",
 	"version" : 1,
-	"creationdate" : -721919341,
-	"modificationdate" : 3574077625,
-	"viewrect" : [ 463.0, 116.0, 240.0, 500.0 ],
+	"creationdate" : -721919280,
+	"modificationdate" : -718220722,
+	"viewrect" : [ 26.0, 60.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
+			"lecteurAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"main.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"141.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
+			"OSC-route.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
 			}
 
 		}
