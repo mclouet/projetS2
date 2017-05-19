@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717775582,
+	"modificationdate" : -716918514,
 	"viewrect" : [ 65.0, 419.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -20,10 +20,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-
-		}
 ,
-		"media" : 		{
+			"mixageAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 
