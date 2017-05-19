@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -716915706,
-	"viewrect" : [ 78.0, 50.0, 267.0, 324.0 ],
+	"modificationdate" : -716915317,
+	"viewrect" : [ 25.0, 89.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,7 +16,27 @@
 				"toplevel" : 1
 			}
 ,
-			"receptionOSC.maxpat" : 			{
+			"mainEffetAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pedaleWahWah.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ringModulation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ringModulation2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -30,24 +50,20 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"simpleFM~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseFM.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
-			"cherokee.aif" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"duduk.aif" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"sho0630.aif" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
 
 		}
 
