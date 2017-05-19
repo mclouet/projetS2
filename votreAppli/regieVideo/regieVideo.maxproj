@@ -1,9 +1,9 @@
 {
 	"name" : "regieVideo",
 	"version" : 1,
-	"creationdate" : 3573048050,
-	"modificationdate" : 3573048054,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"creationdate" : -721919246,
+	"modificationdate" : -716914983,
+	"viewrect" : [ 1317.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,119 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"receptionAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pitchDetection.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_1b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtreBande.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"negatif.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixageVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"lecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Effet miroir.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Effet decoupage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Effet colimétrique.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_10b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"morph.256.rom.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"toronto.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"social.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"pont.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"NewYork.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Kick 01.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"dishes.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"chicago.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"jongly.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
 			}
 
 		}
@@ -32,5 +145,6 @@
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
-	"devpath" : "."
+	"devpath" : ".",
+	"sortmode" : 0
 }
