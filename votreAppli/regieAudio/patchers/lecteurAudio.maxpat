@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 758.0, 148.0, 822.0, 800.0 ],
+		"rect" : [ 77.0, 85.0, 822.0, 800.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,78 +38,13 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 460.5, 134.0, 152.0, 22.0 ],
-					"style" : "",
-					"text" : "buffer~ piste3 cherokee.aif"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 284.5, 134.0, 135.0, 22.0 ],
-					"style" : "",
-					"text" : "buffer~ piste2 duduk.aif"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "sho0630.aif",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"quality" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"play" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-40",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 65.0, 58.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-38",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 152.25, 260.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -119,11 +54,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 262.25, 260.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -133,7 +68,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-36",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -146,7 +81,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -159,11 +94,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 523.0, 260.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -173,11 +108,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-33",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 381.0, 260.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -353,23 +288,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 436.5, 694.0, 45.0, 45.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 351.0, 519.0, 90.0, 22.0 ],
+					"patching_rect" : [ 351.0, 519.0, 112.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -377,8 +301,8 @@
 						"loopend" : [ 0.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 3313.023193, "ticks" ],
-						"originaltempo" : 120.000008,
+						"originallength" : [ 0.0, "ticks" ],
+						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -386,7 +310,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "groove~ piste1"
+					"text" : "groove~ #0-piste"
 				}
 
 			}
@@ -397,117 +321,18 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 79.5, 134.0, 149.0, 22.0 ],
+					"patching_rect" : [ 83.5, 134.0, 257.5, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ piste1 sho0630.aif"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "cherokee.aif",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"quality" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"play" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-7",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 442.0, 58.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "duduk.aif",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"quality" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"play" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-5",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 248.0, 58.0, 150.0, 30.0 ],
-					"style" : ""
+					"text" : "buffer~ #0-piste #1"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -517,7 +342,6 @@
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -612,27 +436,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "duduk.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cherokee.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sho0630.aif",
-				"bootpath" : "C74:/media/msp",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
