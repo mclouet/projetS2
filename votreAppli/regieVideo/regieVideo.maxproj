@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715981676,
-	"viewrect" : [ 77.0, 190.0, 300.0, 438.0 ],
+	"modificationdate" : -715981245,
+	"viewrect" : [ 189.0, 91.0, 300.0, 483.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"mixageVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"negatif.maxpat" : 			{
@@ -74,15 +79,6 @@
 		}
 ,
 		"media" : 		{
-			"dishes.mov" : 			{
-				"kind" : "moviefile",
-				"local" : 1
-			}
-,
-			"chicago.jpg" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
 
 		}
 
