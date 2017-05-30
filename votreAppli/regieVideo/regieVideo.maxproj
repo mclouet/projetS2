@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716919133,
-	"viewrect" : [ 109.0, 174.0, 300.0, 500.0 ],
+	"modificationdate" : -715981676,
+	"viewrect" : [ 77.0, 190.0, 300.0, 438.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"Effet miroir.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Effet decoupage.maxpat" : 			{
+			"negatif.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -31,7 +26,47 @@
 				"local" : 1
 			}
 ,
-			"negatif.maxpat" : 			{
+			"Effet decoupage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Effet miroir.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"lecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pitchDetection.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_1b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtreBande.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_10b.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -41,6 +76,11 @@
 		"media" : 		{
 			"dishes.mov" : 			{
 				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"chicago.jpg" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 
