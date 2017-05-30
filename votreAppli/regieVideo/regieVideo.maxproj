@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715982372,
-	"viewrect" : [ 49.0, 259.0, 300.0, 392.0 ],
+	"modificationdate" : -715981676,
+	"viewrect" : [ 77.0, 190.0, 300.0, 438.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,26 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"negatif.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Effet colimétrique.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Effet decoupage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Effet miroir.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"lecteurVideo.maxpat" : 			{
@@ -54,22 +74,12 @@
 		}
 ,
 		"media" : 		{
+			"dishes.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
 			"chicago.jpg" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"NewYork.jpg" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"pont.jpg" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"toronto.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
