@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715801422,
-	"viewrect" : [ 25.0, 89.0, 300.0, 500.0 ],
+	"modificationdate" : -715797816,
+	"viewrect" : [ 175.0, 308.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -51,6 +51,11 @@
 				"local" : 1
 			}
 ,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"mainEffetAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -65,15 +70,18 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"receptionOSC.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
 		"media" : 		{
+
+		}
+,
+		"externals" : 		{
+			"OSC-route.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
 
 		}
 
