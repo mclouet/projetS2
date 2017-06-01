@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715800475,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : -715793394,
+	"viewrect" : [ 46.0, 113.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -21,7 +21,7 @@
 				"local" : 1
 			}
 ,
-			"mixageVideo.maxpat" : 			{
+			"lecteurVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -46,7 +46,7 @@
 				"local" : 1
 			}
 ,
-			"lecteurVideo.maxpat" : 			{
+			"mixageVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -80,15 +80,20 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"routerAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
-			"dishes.mov" : 			{
-				"kind" : "moviefile",
-				"local" : 1
-			}
-,
 			"Kick 01.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -98,6 +103,45 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+,
+			"morph.256.rom.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"toronto.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"pont.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"NewYork.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"dishes.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"chicago.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"jongly.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
