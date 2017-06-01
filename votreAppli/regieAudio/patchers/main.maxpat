@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "int", "int" ],
+					"patching_rect" : [ 699.0, 354.0, 128.0, 22.0 ],
+					"style" : "",
+					"text" : "receptionOSC.maxpat"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "newobj",
@@ -540,21 +553,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"formant" : [ 1.0 ],
 									"quality" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
+									"formantcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
 									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"followglobaltempo" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
 									"speed" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"mode" : [ "basic" ],
+									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -648,21 +661,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"formant" : [ 1.0 ],
 									"quality" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
+									"formantcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
 									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"followglobaltempo" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
 									"speed" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"mode" : [ "basic" ],
+									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -765,6 +778,7 @@
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -774,6 +788,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -801,6 +816,7 @@
 					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -810,6 +826,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -1026,6 +1043,7 @@
 					"destination" : [ "obj-47", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1035,6 +1053,7 @@
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1044,6 +1063,7 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1053,6 +1073,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1068,65 +1089,75 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-19::obj-11" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-19::obj-10" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-19::obj-8" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-19::obj-11" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-19::obj-2" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pedaleWahWah.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ringModulation.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "osc.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "social.aif",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/media",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syntheseFM.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simpleFM~.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lecteurAudio.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mixageAudio.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moduleEnvoiAudio.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "receptionOSC.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
@@ -1232,8 +1263,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
