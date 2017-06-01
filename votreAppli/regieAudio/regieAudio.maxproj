@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715797816,
-	"viewrect" : [ 175.0, 308.0, 300.0, 500.0 ],
+	"modificationdate" : -715797036,
+	"viewrect" : [ 37.0, 301.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -74,6 +74,35 @@
 		}
 ,
 		"media" : 		{
+			"VOI.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"KLA_02.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"MOT.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"FOU.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"KLA_01.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"BUS.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
 
 		}
 ,
