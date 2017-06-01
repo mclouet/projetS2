@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715981245,
-	"viewrect" : [ 189.0, 91.0, 300.0, 483.0 ],
+	"modificationdate" : -715800475,
+	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"receptionAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"mixageVideo.maxpat" : 			{
@@ -79,6 +84,20 @@
 		}
 ,
 		"media" : 		{
+			"dishes.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1
+			}
+,
+			"Kick 01.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"social.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
 
 		}
 
