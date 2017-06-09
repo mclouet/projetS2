@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -715793394,
+	"modificationdate" : -715125480,
 	"viewrect" : [ 46.0, 113.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -56,12 +56,7 @@
 				"local" : 1
 			}
 ,
-			"pitchDetection.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
+			"analyseSpectrale_10b.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -76,12 +71,7 @@
 				"local" : 1
 			}
 ,
-			"analyseSpectrale_10b.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"routerAudio.maxpat" : 			{
+			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -90,21 +80,36 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"pitchDetection.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"routerAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
-			"Kick 01.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
 			"social.aif" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
 			"morph.256.rom.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"jongly.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"Kick 01.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
@@ -131,11 +136,6 @@
 ,
 			"chicago.jpg" : 			{
 				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"jongly.aif" : 			{
-				"kind" : "audiofile",
 				"local" : 1
 			}
 
